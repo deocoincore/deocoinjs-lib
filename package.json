@@ -1,0 +1,32 @@
+{
+  "name": "deocoinjs-lib",
+  "version": "0.0.8",
+  "description": "An extended lib based on bitcoinjs-lib that can generate contract creating and sending transactions",
+  "main": "src/index.js",
+  "keywords": [
+    "deocoin",
+    "deocoinjs",
+    "smart contract",
+    "deo"
+  ],
+  "author": {
+    "name": "Deocoin",
+    "email": "hello@deocoin.org",
+    "url": "https://deocoin.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deocoincore/deocoinjs-lib.git"
+  },
+  "homepage": "https://github.com/deocoincore/deocoinjs-lib",
+  "bugs": {
+    "url": "https://github.com/deocoincore/deocoinjs-lib/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "bignumber.js": "^4.1.0",
+    "bitcoinjs-lib": "^3.3.2",
+    "safe-buffer": "^5.1.2"
+  }
+}
